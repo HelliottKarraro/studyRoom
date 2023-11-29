@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <script src="blog.js" defer></script>
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="bootcamp.html" target="_blank">Bootcamps</a></li>
+                <li><a href="planos.html" target="_blank">Planos</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <button>Minha conta</button>
+            <button>Sair</button>
+        </div>
+    </header>
+    <main>
+        <h1>Artigos</h1>
+        <div>
+            <h2>Entenda o que é a lógica de programação</h2>
+            <img src="./img/logica_blog.jpg" alt="" width="500px" height="250px">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Quae nam vero rerum repellat eaque vel saepe temporibus, <br>
+                quam consequatur id facere repudiandae nulla aperiam. <br>
+                At quia aspernatur recusandae harum soluta! <br>
+            </p>
+            <section>
+                <h4>Comentários: </h4>
+                <ul id="list1"></ul>
+                <input 
+                type="text" 
+                id="task_name1" 
+                name="task_name1" 
+                placeholder="Digite seu comentário">
+                <button onclick="cliqueArtigo1()">Adicionar comentário</button>
+            </section>
+            
+        </div>
+        <div>
+            <h2>Aprendendo a programar com Python</h2>
+            <img src="./img/python_blog.jpg" alt="" width="500px" height="250px">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Quae nam vero rerum repellat eaque vel saepe temporibus, <br>
+                quam consequatur id facere repudiandae nulla aperiam. <br>
+                At quia aspernatur recusandae harum soluta! <br>
+            </p>
+            <section>
+                <ul id="list2"></ul>
+                <input 
+                type="text" 
+                id="task_name2" 
+                name="task_name2" 
+                placeholder="Digite seu comentário">
+                <button onclick="cliqueArtigo2()">Adicionar comentário</button>
+            </section>
+        </div>
+        <div>
+            <h2>Html: O esqueleto sob a qual a web funciona</h2>
+            <img src="./img/html_blog.jpg" alt="" width="500px" height="250px">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Quae nam vero rerum repellat eaque vel saepe temporibus, <br>
+                quam consequatur id facere repudiandae nulla aperiam. <br>
+                At quia aspernatur recusandae harum soluta! <br>
+            </p>
+            <section>
+                <ul id="list3"></ul>
+                <input 
+                type="text" 
+                id="task_name3" 
+                name="task_name3" 
+                placeholder="Digite seu comentário">
+                <button onclick="cliqueArtigo3()">Adicionar comentário</button>
+            </section>
+        </div>
+        <div>
+            <h2>Css: Organize e colorize as páginas web</h2>
+            <img src="./img/Css_blog.jpg" alt="" width="500px" height="250px">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Quae nam vero rerum repellat eaque vel saepe temporibus, <br>
+                quam consequatur id facere repudiandae nulla aperiam. <br>
+                At quia aspernatur recusandae harum soluta! <br>
+            </p>
+            <section>
+                <ul id="list4"></ul>
+                <input 
+                type="text" 
+                id="task_name4" 
+                name="task_name4" 
+                placeholder="Digite seu comentário">
+                <button onclick="cliqueArtigo4()">Adicionar comentário</button>
+            </section>
+        </div>
+        <div>
+            <h2>Javascript: Torne o ambiente web interativo</h2>
+            <img src="./img/Js_blog.jpg" alt="" width="500px" height="250px">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Quae nam vero rerum repellat eaque vel saepe temporibus, <br>
+                quam consequatur id facere repudiandae nulla aperiam. <br>
+                At quia aspernatur recusandae harum soluta! <br>
+            </p>
+            <section>
+                <ul id="list5"></ul>
+                <input 
+                type="text" 
+                id="task_name5" 
+                name="task_name5" 
+                placeholder="Digite seu comentário">
+                <button onclick="cliqueArtigo5()">Adicionar comentário</button>
+            </section>
+        </div>
+        <div>
+            <h2>Manipulando informações com banco de dados</h2>
+            <img src="./img/banco_blog.jpg" alt="" width="500px" height="250px">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Quae nam vero rerum repellat eaque vel saepe temporibus, <br>
+                quam consequatur id facere repudiandae nulla aperiam. <br>
+                At quia aspernatur recusandae harum soluta! <br>
+            </p>
+            <section>
+                <ul id="list6"></ul>
+                <input 
+                type="text" 
+                id="task_name6" 
+                name="task_name6" 
+                placeholder="Digite seu comentário">
+                <button onclick="cliqueArtigo6()">Adicionar comentário</button>
+            </section>
+        </div>
+
+        
+    </main>
+    <footer>
+        <img src="./img/logo.png" alt="">
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./img/Facebook.png" alt="" width="30" height="30"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/Instagram.png" alt="" width="30" height="30"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/Whatsapp.png" alt="" width="30" height="30"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="./img/Youtube.png" alt="" width="30" height="30"></a>
+                
+        </div>
+    </footer>
+</body>
+</html>
